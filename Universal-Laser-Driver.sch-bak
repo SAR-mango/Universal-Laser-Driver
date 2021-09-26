@@ -11,7 +11,7 @@ Comp "E.S."
 Comment1 "0.8mm PCB required*"
 Comment2 "Revised to prevent feedback oscillations"
 Comment3 "High Iout and Vout not guaranteed with Vin below 5V or high battery ESR"
-Comment4 "Vin: [2.25V, 15V), Vout: [2V, 15V], Iout: [10mA, 200mA] (adjustable with potentiometer)"
+Comment4 "Vin: [2.25V, 15V), Vout: [2V, 15V], Iout: [5mA, 200mA] (adjustable with potentiometer)"
 $EndDescr
 $Comp
 L power:VDD #PWR08

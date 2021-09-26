@@ -8,7 +8,7 @@ Title "Universal Laser Driver"
 Date "2021-09-06"
 Rev "1.2"
 Comp "E.S."
-Comment1 "0.8mm PCB required*"
+Comment1 "0.8mm PCB required for Leadlight Pen Host"
 Comment2 "Revised to prevent feedback oscillations"
 Comment3 "High Iout and Vout not guaranteed with Vin below 5V or high battery ESR"
 Comment4 "Vin: [2.25V, 15V), Vout: [2V, 15V], Iout: [5mA, 200mA] (adjustable with potentiometer)"
@@ -168,8 +168,6 @@ Wire Wire Line
 	2700 1600 3250 1600
 Wire Wire Line
 	3000 1500 2650 1500
-Wire Wire Line
-	2650 1300 2850 1300
 Connection ~ 2700 1700
 Wire Wire Line
 	2700 1800 2700 1700
@@ -247,12 +245,12 @@ $EndComp
 $Comp
 L power:VD #PWR03
 U 1 1 613C4DF8
-P 2850 750
-F 0 "#PWR03" H 2850 600 50  0001 C CNN
-F 1 "VD" H 2850 900 50  0000 C CNN
-F 2 "" H 2850 750 50  0001 C CNN
-F 3 "" H 2850 750 50  0001 C CNN
-	1    2850 750 
+P 2800 750
+F 0 "#PWR03" H 2800 600 50  0001 C CNN
+F 1 "VD" H 2800 900 50  0000 C CNN
+F 2 "" H 2800 750 50  0001 C CNN
+F 3 "" H 2800 750 50  0001 C CNN
+	1    2800 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -500,8 +498,18 @@ Wire Wire Line
 Wire Wire Line
 	2900 1300 2900 1800
 Wire Wire Line
-	2850 1300 2850 750 
-Connection ~ 2850 1300
+	2650 1300 2800 1300
 Wire Wire Line
-	2850 1300 2900 1300
+	2800 1300 2800 750 
+Connection ~ 2800 1300
+Wire Wire Line
+	2800 1300 2900 1300
+Text Notes 1200 750  0    50   ~ 0
+IN+
+Text Notes 1050 2250 0    50   ~ 0
+IN-
+Text Notes 3050 750  0    50   ~ 0
+OUT+
+Text Notes 3400 2100 0    50   ~ 0
+OUT-
 $EndSCHEMATC
