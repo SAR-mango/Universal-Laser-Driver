@@ -1,6 +1,5 @@
 (sym_lib_table
   (lib (name LTC3129IMSE)(type Legacy)(uri ${KIPRJMOD}/libs/LTC3129IMSE/LTC3129IMSE.lib)(options "")(descr ""))
-  (lib (name Universal-Laser-Driver-rescue)(type Legacy)(uri ${KIPRJMOD}/Universal-Laser-Driver-rescue.lib)(options "")(descr ""))
   (lib (name AD8515)(type Legacy)(uri ${KIPRJMOD}/libs/AD8515/AD8515.lib)(options "")(descr ""))
   (lib (name LTC3129IUD)(type Legacy)(uri ${KIPRJMOD}/libs/LTC3129IUD/LTC3129IUD.lib)(options "")(descr ""))
 )
