@@ -5,7 +5,7 @@ $Descr User 6000 4000
 encoding utf-8
 Sheet 1 1
 Title "Universal Laser Driver"
-Date "2021-09-06"
+Date "2021-11-06"
 Rev "1.2"
 Comp "E.S."
 Comment1 "0.8mm PCB required for Leadlight Pen Host"
@@ -504,12 +504,12 @@ Wire Wire Line
 Connection ~ 2800 1300
 Wire Wire Line
 	2800 1300 2900 1300
-Text Notes 1200 750  0    50   ~ 0
+Text Notes 5150 1100 0    50   ~ 0
 IN+
-Text Notes 1050 2250 0    50   ~ 0
+Text Notes 5150 1550 0    50   ~ 0
 IN-
-Text Notes 3050 750  0    50   ~ 0
+Text Notes 2550 700  0    50   ~ 0
 OUT+
-Text Notes 3400 2100 0    50   ~ 0
+Text Notes 5150 2000 0    50   ~ 0
 OUT-
 $EndSCHEMATC
