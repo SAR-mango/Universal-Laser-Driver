@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LTC3129IMSE")(type "KiCad")(uri "${KIPRJMOD}/libs/LTC3129IMSE/LTC3129IMSE.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8515")(type "KiCad")(uri "${KIPRJMOD}/libs/AD8515/AD8515.kicad_sym")(options "")(descr ""))
+)
